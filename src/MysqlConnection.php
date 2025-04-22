@@ -9,7 +9,7 @@ use Illuminate\Database\Schema\MySqlBuilder;
 use JonHubbard1\LaravelMysqlSpatial\Schema\Grammars\MySqlGrammar as SpatialGrammar;
 use JonHubbard1\LaravelMysqlSpatial\Schema\MySqlBuilder as SpatialBuilder;
 
-class MysqlConnection extends MySqlConnection
+class MysqlConnection extends \Illuminate\Database\MySqlConnection
 {
     /**
      * Get a schema builder instance for the connection.
