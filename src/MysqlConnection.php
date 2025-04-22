@@ -56,4 +56,9 @@ class MysqlConnection extends IlluminateMySqlConnection
 
         return new Builder($this);
     }
+
+    public function getDoctrineSchemaManager()
+    {
+        return $this->getDoctrineConnection()->createSchemaManager();
+    }
 }
