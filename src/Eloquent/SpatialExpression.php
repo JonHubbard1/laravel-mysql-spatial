@@ -1,6 +1,6 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Eloquent;
+namespace JonHubbard1\LaravelMysqlSpatial\Eloquent;
 
 use Illuminate\Database\Query\Expression;
 

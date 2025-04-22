@@ -1,10 +1,10 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Types;
+namespace JonHubbard1\LaravelMysqlSpatial\Types;
 
 use GeoJson\GeoJson;
 use GeoJson\Geometry\Polygon as GeoJsonPolygon;
-use Grimzy\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException;
+use JonHubbard1\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException;
 
 class Polygon extends MultiLineString
 {

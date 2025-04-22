@@ -1,6 +1,6 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Schema;
+namespace JonHubbard1\LaravelMysqlSpatial\Schema;
 
 use Closure;
 use Illuminate\Database\Schema\MySqlBuilder;
